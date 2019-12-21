@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+  }
+.container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+.panel {
+    background: #6B0F9C;
+    box-shadow: inset 0 0 0 5px rgba(221, 28, 28, 0.1);
+    color: rgb(194, 84, 84);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.panel1{background-image: url('img/one.jpg');}
+.panel2{background-image: url('img/two.jpg');}
+.panel3{background-image: url('img/three.jpg');}
+.panel4{background-image: url('img/four.jpg');}
+.panel5{background-image: url('img/five.jpg');}
+.panel6{background-image: url('img/six.jpg');}
+
+.panel.open {
+    flex: 5;
+    font-size: 40px;
+  }
+  
